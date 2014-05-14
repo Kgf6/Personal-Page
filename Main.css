@@ -1,0 +1,350 @@
+@font-face{
+	font-family: GrandHotel;
+	src: url(GrandHotel-Regular.otf);
+}
+@font-face{
+	font-family: Myriad;
+	src: url(MyriadPro-Regular.otf);
+}
+@font-face{
+	font-family: mblack;
+	src: url(MyriadPro-Black.otf);
+}
+
+
+.hor{
+	display: inline;
+}
+
+.mainnav ul{
+	
+	font-family: Myriad;
+	font-size: 150%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.mainnav li{
+	float: left;
+	
+}
+.mainnav ul a{
+	display: block;
+	padding-left: 4%;
+	color:white;
+	text-decoration: none;
+	
+	
+}
+.mainnav ul a:hover{
+	background-color: #e74c3c;
+	width: auto;
+	height: auto;
+	
+}
+
+.qlinks{
+	margin-top: 20px;
+	margin-left: 65%;
+	margin-right: 30px;
+}
+
+.Home{
+	font-family: GrandHotel;
+	font-size: 250%; 
+	padding-left: 2%;
+	padding-right: 0%;
+	float: left;
+	color: white;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+
+}
+.Home a{
+	text-decoration: none;
+	color: white;
+}
+.Home:active{
+	padding-top: 2px;
+    margin-bottom: -1px;
+}
+
+
+.bg{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	border: 0;  
+    z-index: -10;
+	top: 0px;
+    left:0px;
+    overflow-x: hidden;
+    
+}
+
+body{
+	overflow-x: hidden;
+	width: 98.6%;
+}
+
+.intro{
+	font-family: Myriad;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 10%;
+}
+
+.sayhi{
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 14px 26px;
+	font-size: 30px;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-family: mblack;
+	background-color: #e74c3c ;
+	box-shadow: 0px 3px 0px 0px #a1352a;
+	}
+.sayhi:active{
+	padding-top: 15px;
+    margin-bottom: -1px;
+    box-shadow: 0px 1px 0px 0px #a1352a;
+    background-color: #cf4436;
+}
+.sayhi, .sayhi:hover, .sayhi:active{
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.down{
+	max-width: 60px;
+	max-height: 112px;
+	margin-top: 60px;
+	
+}
+
+
+
+
+
+
+.skills{
+	
+	overflow-x: hidden;
+	
+		
+}
+.stitle{
+	font-family: mblack;
+	color: #e74c3c;
+	padding-top: 5%;
+	text-align: center;
+	font-size: 60px;
+}
+.stext{
+	
+	font-family: Myriad;
+	color: #95a5a6;
+	text-align: center;
+	font-size: 18px;
+	line-height: 29px;
+}
+.simgs{
+	
+	
+}
+.skillset{
+	position: absolute;
+	margin-bottom: 32px;
+	font-family: mblack;
+	font-size: 15px;
+	color: #e74c3c;
+	width: 1600px;
+	height: auto;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+.skillset h1{
+	visibility: hidden;
+	
+}
+.skillset p{
+	line-height: 29px;
+	color: #95a5a6;
+	font-family: Myriad;
+	text-align: justify;
+	width: 263px;
+	
+}
+.comp{
+	padding-left: 40px;	
+	float: left;
+	max-height: 70px;
+	max-width: 70px;
+	
+	
+	
+	
+}
+.compblock{
+	position: absolute;
+	float: left;
+	
+
+}
+
+.code{
+	
+	padding-left: 40%;
+	float: left;
+	max-height: 70px;
+	max-width: 70px;
+	
+	
+	
+
+}
+.codeblock{
+	padding-left: 40%;
+	position: absolute;
+	float: left;
+	
+}
+.design{
+	padding-left: 60%;
+	float: left;
+	max-height: 70px;
+	max-width: 70px;
+	padding-bottom: 40px;
+	
+}
+.dblock{
+	position: absolute;
+	padding-left: 60%;
+	float: left;
+	
+}
+
+
+.Quote img{
+	width: 100%;
+	border: 0;
+	left: 0;
+	position: absolute;
+	z-index: -10;
+	
+}
+.Quote h1{
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	font-family: Myriad;
+	color: white;
+	font-size: 40px;
+	z-index: 10;
+	width: 60%;
+	padding-left: 20%;
+}
+
+.Experience{
+	margin-top: 180px;
+	left:0;
+	right:0;
+	border: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 0;
+	background-color: white;
+	width: 100.93%;
+	height: 90%;
+	
+	
+}
+.etitle{
+	font-family: mblack;
+	color: #e74c3c;
+	padding-top: 5%;
+	position: relative;
+	text-align: center;
+	font-size: 60px;
+}
+.etext{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-family: Myriad;
+	color: 95a5a6;
+	text-align: center;
+	font-size: 18px;
+	line-height: 29px;
+	
+}
+.work{
+	padding-top: 60px;
+	padding-left: 40px;
+	width: 100%;
+}
+.spudder{
+	padding-top: 2%;
+	padding-left: 20%;
+}
+.spud{
+	width: 250px;
+	height: 63px;
+}
+.spudtext{
+	padding-top: 2%;
+	line-height: 29px;
+	font-family: Myriad;
+	color: 95a5a6;
+	font-size: 18px;
+	
+}
+.prudential{
+	float: left;
+	padding-top: 2%;
+	text-align: center;
+	position: relative;
+}
+.pru{
+	width: 230px;
+	height: 62px;
+}
+.prutext{
+	padding-top: 2%;
+	line-height: 29px;
+	font-family: Myriad;
+	color: 95a5a6;
+	font-size: 18px;
+}
