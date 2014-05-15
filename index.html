@@ -1,63 +1,65 @@
 <!DOCTYPE html> 
 <html>
-<head>
-	<title> Kevaughn Francis Resume </title>
-	<link rel = "stylesheet" type="text/css" href="Main.css">
-	<link rel="stylesheet" href="css/animations.css">
-	<meta name="description" content="Online portfolio and Resume of Kevaughn Francis.">
-	<meta name="robots" content="index,follow">
-	<meta name="keywords" content="Kevaughn, Kevaughn Francis, Francis, NJIT, New Jersey Institute of Technology, Christ The King prep, Newark, Irvington" />
-</head>
-<center>
-<body>
+
+	<head>
+		<title> Kevaughn Francis Resume </title>
+		
+		<meta name="description" content="Online portfolio and Resume of Kevaughn Francis.">
+		<meta name="robots" content="index,follow">
+		<meta name="keywords" content="Kevaughn, Kevaughn Francis, Francis, NJIT, New Jersey Institute of Technology, Christ The King prep, Newark, Irvington" />
+		<link rel = "stylesheet" type="text/css" href="Main.css">
+		
+		
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script> 
+   		<script src="jquery.localscroll-1.2.7-min.js" type="text/javascript"></script> 
+		<script src="jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script> 
+		<script type="text/javascript">
+		   			$(document).ready(function() {
+			   		$('body').localScroll({duration:800});
+			   		});
+		</script>  	
+	</head>
+
+	<body>
 	
 		<div class = "header">
-			<div class = "mainnav">
-			
+		
+				<ul class = "nav">
 						
-							<div class = "Home">
-								<a href = "">Francis</a>
-							</div>
+						<li class  = "Home">
+							<a href = "">Francis</a>
+						</li>
 						
-							<ul>
-								
-								<div class = "qlinks">
-									<div class = "slink">
-										<li><a href = "#"> Skills </a></li>
-									</div>
-										
-									<div class = "elink">	
-										<li><a href = "#"> Experience</a> </li>
-									</div>
-										
-									<div class = "clink">	
-										<li><a href = "#"> Contact Me </a></li>
-									</div>
-								
-								
+						<li>
+							<ul class = "qlinks">
+		
+								<li class = "slink"><a href="#">Say Hi</a></li>
+								<li><a href="#linktoe">Experience</a></li>
+								<li><a href="#linktoskill">Skills</a></li>
+						
 							</ul>
-						
-				
-			</div>
+						</li>
+				</ul>
+
+			<img  class = "bg" src = "Campus.jpg" alt="camp">
+
+			<h1 class = "intro"> 
+			I design User eXperiences at NJIT
+			</h1>
+		
+			<center><a href="#" class ="sayhi">Hire Me</a></center>
+			
+			<center>
+			<a href="#linktoskill"><img id = "down" src="down arrow.png"></a>
+			</center>
+			
+		
 		</div>
-
-			<img  class = "bg" src = "Campus2.png" alt="camp">
-
-		<h1 class = "intro"> 
-		I'm an NJIT student majoring in <br>
-		Human Computer Interaction
-		</h1>
 		
-		<center>
-		<a href="#" class ="sayhi">Contact Me</a>
-		</center>
+		<div class = "Skills" >
 		
-		<center><img class = "down"  src="down arrow.png"></center>
-		
-	</div>
-	
-	<div class = "Skills">
-		<h1 class = "stitle"> Skills </h1>
+		<h1 class = "stitle" ><a name="linktoskill"> Skills </a></h1>
 		<p class = "stext"> 
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut<br>
 			labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et<br>
@@ -108,15 +110,15 @@
 		</div>
 		
 	</div>
-	
-	<div class = "Quote">
+		
+		<div class = "Quote">
 		<img src = "Quote copy.png">
 		<h1> <q>When I am working on a problem, I never think about beauty but when I have finished, if the solution is not
  beautiful, I know it is wrong.</q> - Buckminster Fuller </h1>
 	</div>
-	
-	<div class = "Experience">
-		<h1 class = "etitle"> Experience </h1>
+		
+		<div class = "Experience">
+		<h1 class = "etitle"><a name="linktoe"> Experience</a> </h1>
 		<p class = "etext"> 
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut<br>
 			labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et<br>
@@ -153,11 +155,7 @@
 		
 		
 		</div>
-		
-	</div>
-
+			
+	</body>	
 	
-	
-</body>	
-</center>	
 </html>
