@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html>
-
+<div id = "top"> bla</div>
 	<head>
 		<title> Kevaughn Francis Resume </title>
 		
@@ -14,17 +14,14 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script> 
    		<script src="jquery.localscroll-1.2.7-min.js" type="text/javascript"></script> 
 		<script src="jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script> 
-		<script type="text/javascript">
-		   			$(document).ready(function() {
-			   		$('body').localScroll({duration:800});
-			   		});
-		</script>  	
+		
+			
 	</head>
 
+
 	<body>
-	
 		<div class = "header">
-		
+			<div class = "navbar">		
 				<ul class = "nav">
 						
 						<li class  = "Home">
@@ -34,21 +31,22 @@
 						<li>
 							<ul class = "qlinks">
 		
-								<li class = "slink"><a href="#">Say Hi</a></li>
-								<li><a href="#linktoe">Experience</a></li>
-								<li><a href="#linktoskill">Skills</a></li>
+								<li class = "slink"><a href="#sayhi"><span class = "underline">Say Hi</span></a></li>
+								<li class = "elink"><a href="#linktoe"><span class = "underline">Experience</span></a></li>
+								<li class = "sklink"><a href="#linktoskill"><span class = "underline">Skills</span></a></li>
 						
 							</ul>
 						</li>
 				</ul>
-
+			</div>
+		
 			<img  class = "bg" src = "Campus.jpg" alt="camp">
 
 			<h1 class = "intro"> 
 			I design User eXperiences at NJIT
 			</h1>
 		
-			<center><a href="#" class ="sayhi">Hire Me</a></center>
+			<center><a href="#sayhi" class ="sayhi">Hire Me</a></center>
 			
 			<center>
 			<a href="#linktoskill"><img id = "down" src="down arrow.png"></a>
@@ -58,8 +56,8 @@
 		</div>
 		
 		<div class = "Skills" >
-		
-		<h1 class = "stitle" ><a name="linktoskill"> Skills </a></h1>
+		<p class = "sTop"><a name="linktoskill"> hi</a> </p>
+		<h1 class = "stitle" > Skills </h1>
 		<p class = "stext"> 
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut<br>
 			labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et<br>
@@ -67,95 +65,152 @@
 			dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore<br>
 			magna aliquyam erat, sed diam voluptua. 
 		</p>
-			
-		<div class = simgs>
-		
-			<div class = "skillset">
-				<div class = "compchunk">
-					<img class = "comp" src = "Computer.png" > 
-					<h1>Computer</h1>
-					<p class = "compblock"> Lorem ipsum dolor sit amet, consetetur <br>
-					sadipscing elitr, sed diam nonumy eirmod <br> 
-					tempor invidunt ut labore et dolore<br>
-					magna aliquyam erat, sed diam voluptua.<br>
-					At vero eos et accusam et justo duo dolo-<br>
-					res et ea rebum. Stet clita kasd gubergren, 
-					</p>
-				</div>
-				<div class = "codechunk">
-					
-					<img class = "code"src = "Code.png">
-					<h1> Code </h1>
-					<p class = "codeblock"> Lorem ipsum dolor sit amet, consetetur <br>
-					sadipscing elitr, sed diam nonumy eirmod <br> 
-					tempor invidunt ut labore et dolore<br>
-					magna aliquyam erat, sed diam voluptua.<br>
-					At vero eos et accusam et justo duo dolo-<br>
-					res et ea rebum. Stet clita kasd gubergren, 
-					</p>
-				</div>
-				<div class = "dchunk">
-					<img class = "design" src = "Design.png">
-					<h1> Design </h1>
-					<p class = "dblock"> Lorem ipsum dolor sit amet, consetetur <br>
-					sadipscing elitr, sed diam nonumy eirmod <br> 
-					tempor invidunt ut labore et dolore<br>
-					magna aliquyam erat, sed diam voluptua.<br>
-					At vero eos et accusam et justo duo dolo-<br>
-					res et ea rebum. Stet clita kasd gubergren, 
-					</p>
-				</div>
+		<div class = "skimgs">
+			<div class = "comp">
+				<img src = "Computer.png" width="128px" height="128px">
+				<h1> Computer </h1>
+				<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+				</p>
 			</div>
-		
+			<div class = "code">
+				<img src = "Code.png" width="128px" height="128px">
+				<h1> Code </h1>
+				<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+				</p>
+			</div>
+			<div class = "design">
+				<img src = "Design.png" width="128px" height="128px">
+				<h1> Design </h1>
+				<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+				</p>
+			</div>
+		</div>
+			
+				
 		</div>
 		
-	</div>
-		
-		<div class = "Quote">
-		<img src = "Quote copy.png">
-		<h1> <q>When I am working on a problem, I never think about beauty but when I have finished, if the solution is not
- beautiful, I know it is wrong.</q> - Buckminster Fuller </h1>
-	</div>
+		<div class = "quote">
+			<img src = "Quote.jpg">
+			<h2> <q>When I am working on a problem, I never think about beauty but when I have finished, if the solution is not
+				beautiful, I know it is wrong.</q> - Buckminster Fuller </h2>
+				<p class = "exhook"> <a name = "linktoe"> bla</a> </p>
+		</div>
 		
 		<div class = "Experience">
-		<h1 class = "etitle"><a name="linktoe"> Experience</a> </h1>
-		<p class = "etext"> 
+			<h1 class = "etitle"> Experience </h1>
+			<p class = "etext">
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut<br>
 			labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et<br>
 			ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum<br>
 			dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore<br>
 			magna aliquyam erat, sed diam voluptua. 
-		</p>
+			</p>
 			
-		<div class "work">
-			<div class = "spudder">
-				<img class = "spud" src = "Spudder.png">
-				<p class = "spudtext"> Lorem ipsum dolor sit amet, consetetur <br>
-				sadipscing elitr, sed diam nonumy eirmod <br> 
-				tempor invidunt ut labore et dolore<br>
-				magna aliquyam erat, sed diam voluptua.<br>
-				At vero eos et accusam et justo duo dolo-<br>
-				res et ea rebum. Stet clita kasd gubergren, 
-				</p>
-			
+			<div class = "eimgs">
+				<div class = "spudder">
+					<img src = "Spudder.png" width="236.2px" height="62.5px">
+					<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+					</p>
+				</div>
+				<div class = "prudential">
+					<img src = "Prudential.png" width="328px" height="102.25px">
+					<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+					</p>
+				</div>
+				<div class = "mcarter">
+					<img src = "McCarter.png" width="285.5px" height="153.75px">
+					<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+					labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+					ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+					</p>
+				</div>
+				<br><br><br><br><hr style="height: 1px">
+				
 			</div>
-			<div class = "prudential">
-				<img class = "pru" src = "Prudential.png">
-				<p class = "prutext">Lorem ipsum dolor sit amet, consetetur <br>
-				sadipscing elitr, sed diam nonumy eirmod <br> 
-				tempor invidunt ut labore et dolore<br>
-				magna aliquyam erat, sed diam voluptua.<br>
-				At vero eos et accusam et justo duo dolo-<br>
-				res et ea rebum. Stet clita kasd gubergren, 
-				</p>
-			</div>
-		
 		</div>
 		
-		
-		
-		</div>
+		<div class = "Contact">
+			<h3><a name = "sayhi"> Say Hello</a></h3>
+	
+			<form action="MAILTO:kgf6@njit.edu" method="post" enctype="text/plain">
 			
+			
+				<input type="text" class = "name" name="name" placeholder="Name" size = "21px">
+		
+				<input type="text" class = "mail" name="mail" placeholder="Email" size = "21px"><br>
+			
+				<textarea  class = "comment" name="comment" cols = "46" rows = "5" size="42px" placeholder="What can I help you with?"></textarea><br><br>
+				
+				<input class = "submit" type="submit" value="Send Email">
+			
+
+			</form>
+		</div>
+		
+			<div class = "footer">
+				
+				<h2> Designed by Kevaughn Francis </h2>
+				
+			</div>
+		
+		<div id="message"><a href="#top"><img id = "down" src="down arrow.png" height="40px" width="40px"></a></div>
+		<script type="text/javascript">
+		   	$(document).ready(function() {
+			 	$('body').localScroll({duration:800});
+			  }); 
+		</script>  
+		<script type="text/javascript">
+			$(window).on('scroll', function() {
+		    console.log($(this).scrollTop());
+		    if ($(this).scrollTop() > 150 && !$('.navbar').hasClass('visible')) {
+		        $('.navbar').animate({opacity : 0.7},'fast' , function() {
+		            $(this).addClass('visible').removeAttr('style');
+		        });
+		    } else if ($(this).scrollTop() <= 150 && $('.navbar').hasClass('visible')) {
+		        $('.navbar').animate({opacity : 1}, 'fast', function() {
+		            $(this).removeClass('visible').removeAttr('style');
+		        });
+		    }
+		});
+		</script>
+		<script>
+		$(function () {
+
+    /* set variables locally for increased performance */
+    var scroll_timer;
+    var displayed = false;
+    var $message = $('#message a');
+    var $window = $(window);
+    var top = $(document.body).children(0).position().top;
+
+    /* react to scroll event on window */
+    $window.scroll(function () {
+        window.clearTimeout(scroll_timer);
+        scroll_timer = window.setTimeout(function () {
+            if($window.scrollTop() <= top)
+            {
+                displayed = false;
+                $message.fadeOut(500);
+            }
+            else if(displayed == false)
+            {
+                displayed = true;
+                $message.stop(true, true).show().click(function () { $message.fadeOut(500); });
+            }
+        }, 100);
+    });
+});
+	</script>
 	</body>	
 	
 </html>
